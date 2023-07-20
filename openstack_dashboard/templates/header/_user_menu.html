@@ -50,13 +50,6 @@
       </li>
     {% endfor %}
 
-    {% themes as available_themes %}
-    {% if available_themes and available_themes|length > 1 %}
-      <li class="divider"></li>
-      <li>
-        {% include 'header/_theme_list.html' %}
-      </li>
-    {% endif %}
     <li class="divider"></li>
     <li>
       <a href="{{ LOGOUT_URL }}" target="_self">

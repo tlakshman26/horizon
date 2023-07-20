@@ -104,11 +104,7 @@ AVAILABLE_THEMES = [
         'default',
         pgettext_lazy('Default style theme', 'Default'),
         'themes/default'
-    ), (
-        'material',
-        pgettext_lazy("Google's Material Design style theme", "Material"),
-        'themes/material'
-    ),
+    )
 ]
 
 # None means to Use AVAILABLE_THEMES as the default value.
